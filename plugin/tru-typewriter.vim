@@ -8,7 +8,5 @@
 " License:      do whatever you want with this, I don't care
 
 set keymap=tru-typewriter iminsert=0 imsearch=0
-inoremap <C-@> <C-^>
-cnoremap <C-@> <C-^>
-inoremap <C-Space> <C-^>
-cnoremap <C-Space> <C-^>
+noremap! <C-@> <C-^>
+noremap! <C-Space> <C-^>
